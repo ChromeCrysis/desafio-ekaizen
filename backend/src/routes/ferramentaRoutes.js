@@ -1,5 +1,6 @@
 const router = require('express').Router()
 
+//Import das funções que realizam o CRUD
 const ferramentaController = require('../controllers/ferramentaControllers')
 
 router.post('/cadastro', ferramentaController.createFerramenta)

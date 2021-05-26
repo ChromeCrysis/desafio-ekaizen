@@ -1,5 +1,6 @@
 const {Cliente} = require('../models/clienteModels')
 
+//Funções do CRUD 
 class clienteController {
     async createCliente(req, res){
       const {nome, email, telefone, nome_fantasia, email_empresa, telefone_comercial,

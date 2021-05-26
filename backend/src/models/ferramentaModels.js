@@ -1,7 +1,6 @@
 const db = require('../db/db')
 
-//const Orcamento = require('./orcamentoModels')
-
+//Tabela Ferramenta do banco de dados
 const Ferramenta = db.sequelize.define('ferramenta', {
     id_ferramenta: {
         type: db.Sequelize.INTEGER,

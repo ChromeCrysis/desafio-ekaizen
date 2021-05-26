@@ -1,5 +1,6 @@
 const db = require('../db/db')
 
+//Tabela Cliente do banco de dados
 const Cliente = db.sequelize.define('cliente', {
     id_cliente: {
         type: db.Sequelize.INTEGER,
